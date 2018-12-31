@@ -11,4 +11,4 @@ docker run --name pdnsadmin-test -e BIND_ADDRESS=0.0.0.0 \
   -e SQLA_DB_HOST='192.168.0.100' \
   -e SQLA_DB_NAME='powerdns_admin_test' \
   -v /data/node_modules:/var/www/powerdns-admin/node_modules
-  -d -p 9191:9191 really/powerdns-admin:latest
+  -d -p 9191:9191 ixpict/powerdns-admin-pgsql:latest
